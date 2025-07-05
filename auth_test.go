@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	circlPki "github.com/cloudflare/circl/pki"
-	"github.com/refraction-networking/utls/internal/fips140tls"
+	"github.com/hongsyang/utls/internal/fips140tls"
 )
 
 func TestSignatureSelection(t *testing.T) {

@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/refraction-networking/utls/internal/byteorder"
-	"github.com/refraction-networking/utls/internal/fips140tls"
-	"github.com/refraction-networking/utls/internal/hpke"
-	"github.com/refraction-networking/utls/internal/tls13"
+	"github.com/hongsyang/utls/internal/byteorder"
+	"github.com/hongsyang/utls/internal/fips140tls"
+	"github.com/hongsyang/utls/internal/hpke"
+	"github.com/hongsyang/utls/internal/tls13"
 
 	circlSign "github.com/cloudflare/circl/sign"
 )

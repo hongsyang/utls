@@ -650,6 +650,7 @@ var (
 	HelloIOS_12_1 = ClientHelloID{helloIOS, "12.1", nil, nil}
 	HelloIOS_13   = ClientHelloID{helloIOS, "13", nil, nil}
 	HelloIOS_14   = ClientHelloID{helloIOS, "14", nil, nil}
+	HelloIOS_16_0 = ClientHelloID{helloIOS, "16.0", nil, nil}
 
 	HelloAndroid_11_OkHttp = ClientHelloID{helloAndroid, "11", nil, nil}
 

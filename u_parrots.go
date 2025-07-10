@@ -2075,7 +2075,7 @@ func utlsIdToSpec(id ClientHelloID) (ClientHelloSpec, error) {
 				},
 			},
 		}, nil
-	case HelloSafari_16_0:
+	case HelloSafari_16_0, HelloSafari_17_0, HelloSafari_18_0, HelloSafari_18_5:
 		return ClientHelloSpec{
 			TLSVersMin: VersionTLS10,
 			TLSVersMax: VersionTLS13,
